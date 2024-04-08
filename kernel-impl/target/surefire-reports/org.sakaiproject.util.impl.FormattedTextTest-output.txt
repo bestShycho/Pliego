@@ -1,0 +1,206 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-simple/1.7.31/slf4j-simple-1.7.31.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - Failure during encode of href url: java.net.MalformedURLException: no protocol: www.dr-chuck.com
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - Failure during encode of href url: java.net.MalformedURLException: no protocol: XXXXXXXX
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - Failure during encode of href url: java.net.URISyntaxException: Illegal character in hostname at index 17: http://www.abc.es');alert('yo');
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - Failure during encode of href url: java.net.MalformedURLException: no protocol: www.abc.es
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - Failure during encode of href url: java.net.MalformedURLException: no protocol: wwwwwwwwww
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - FormattedText error handling: return; log errors=false; return to tool=true; notify user=false; details to user=false
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.owasp.validator.html.Policy - Attempting to load AntiSamy policy from an input stream.
+[main] INFO org.sakaiproject.util.impl.FormattedTextImpl - AntiSamy INIT default security level (HIGH), policy files read: high=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/high-security-policy.xml, low=/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/antisamy/low-security-policy.xml

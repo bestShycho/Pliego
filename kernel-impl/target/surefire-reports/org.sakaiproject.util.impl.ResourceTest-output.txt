@@ -1,0 +1,23 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-simple/1.7.31/slf4j-simple-1.7.31.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] WARN org.sakaiproject.component.impl.MockCompMgr - LOADING CM in testing mode... this should only ever happen during unit tests
+[main] INFO org.sakaiproject.component.impl.MockCompMgr - Created an empty CM mock (no services loaded)
+[main] WARN org.sakaiproject.util.ResourceLoader - getLocale() swallowing NPE - caused by a null sessionmanager or null session, OK for tests, problem if production
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing NPE
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - getLocale() swallowing NPE - caused by a null sessionmanager or null session, OK for tests, problem if production
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing NPE
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - getLocale() swallowing NPE - caused by a null sessionmanager or null session, OK for tests, problem if production
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing NPE
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - getLocale() swallowing NPE - caused by a null sessionmanager or null session, OK for tests, problem if production
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing NPE
+[main] WARN org.sakaiproject.util.ResourceLoader - setContextLocale(Locale) swallowing Exception
