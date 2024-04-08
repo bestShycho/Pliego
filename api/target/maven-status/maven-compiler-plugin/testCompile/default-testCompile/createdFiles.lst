@@ -1,0 +1,5 @@
+org/sakaiproject/util/ToolListenerTest.class
+org/sakaiproject/exception/PermissionExceptionTest.class
+org/sakaiproject/util/ServerCookieTest.class
+org/sakaiproject/util/RequestFilterTest.class
+org/sakaiproject/util/TrustedLoginTokenTest.class

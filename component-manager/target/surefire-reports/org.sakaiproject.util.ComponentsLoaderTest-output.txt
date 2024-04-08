@@ -1,0 +1,18 @@
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-rwadhyg-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-sfqnk5ik-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-8w9rcbq5-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-i4nj0gwy-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-z-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-b-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-a-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-sp9g9hbu-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-fppqnxp0-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-test-pack
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-jarloadorder-pack

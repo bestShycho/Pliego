@@ -1,0 +1,5 @@
+WARN  - DateFormatterUtil          - Error parsing the date null using the ISO_ZONED_DATE_TIME format
+WARN  - DateFormatterUtil          - Error parsing the date 2017-12-31 23:34:00 using the ISO_ZONED_DATE_TIME format
+WARN  - DateFormatterUtil          - Error parsing the date 2017-12-03T10:15:30+01:00[Mordor/Paris] using the ISO_ZONED_DATE_TIME format
+WARN  - DateFormatterUtil          - Error parsing the date 2017-13-03T10:15:30+01:00[Europe/Paris] using the ISO_ZONED_DATE_TIME format
+WARN  - DateFormatterUtil          - Error parsing the date 2017-12-33T10:15:30+01:00[Europe/Paris] using the ISO_ZONED_DATE_TIME format

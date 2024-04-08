@@ -1,0 +1,15 @@
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/SakaiPersistenceUnitManager.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/SakaiIdentifierGeneratorProvider.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/data/SpringCrudRepositoryImpl.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/CrudRepository.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/AssignableUUIDGenerator.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/serialization/SerializableRepository.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/IgniteQueryResultsCache.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/id/hbm/IdGenerator.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/serialization/BasicSerializableRepository.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/impl/AdditionalHibernateMappingsImpl.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/AddablePersistenceUnit.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/HibernateCriterionUtils.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/SakaiMutablePersistenceUnitInfo.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/AdditionalHibernateMappings.java
+/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/HibernateCrudRepository.java
