@@ -26,13 +26,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.sakaiproject.component.impl.BasicConfigurationService - init()
 [main] INFO org.sakaiproject.ignite.IgniteConfigurationAdapter - Ignite configured with home=[/tmp/sakai/ignite/eim-alu-69085], node=[eim-alu-69085], name=[localhost], client mode=[false], tcp ports=[50266..50275], discovery ports=[0..9]
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Config URL: n/a
-[main] INFO org.apache.ignite.internal.IgniteKernal%localhost - IgniteConfiguration [igniteInstanceName=localhost, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, buildIdxPoolSize=1, igniteHome=/tmp/sakai/ignite/eim-alu-69085, igniteWorkDir=/tmp/sakai/ignite/eim-alu-69085/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@180e6ac4, nodeId=28e7689e-25ff-43f2-8409-ab0800b11c50, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=NOOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@53bf7094, ctxInitLatch=java.util.concurrent.CountDownLatch@26f1249d[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@710b30ef, colSpi=FifoQueueCollisionSpi [parallelJobsNum=8, waitJobsNum=2147483647, runningCnt=0, waitingCnt=0, heldCnt=0], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@60297f36, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@1bf0f6f6, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@56bc3fac, clientMode=false, rebalanceThreadPoolSize=1, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=3, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=READ_COMMITTED, dfltConcurrency=OPTIMISTIC, dfltTxTimeout=30000, txTimeoutOnPartitionMapExchange=0, deadlockTimeout=10000, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=CONTINUOUS, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=20000, sysWorkerBlockedTimeout=20000, clientFailureDetectionTimeout=30000, metricsLogFreq=0, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=8, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysRegionMaxSize=104857600, pageSize=0, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=spring_region, maxSize=104857600, initSize=10485760, swapPath=null, pageEvictionMode=RANDOM_2_LRU, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null], dataRegions=DataRegionConfiguration[] [DataRegionConfiguration [name=hibernate_l2_region, maxSize=1073741824, initSize=314572800, swapPath=null, pageEvictionMode=RANDOM_2_LRU, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=10000, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null]], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, maxWalArchiveSize=1073741824, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, cdcWalPath=db/wal/cdc, cdcEnabled=false, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@6a078481, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, walForceArchiveTimeout=-1, writeThrottlingEnabled=false, walCompactionEnabled=false, walCompactionLevel=1, checkpointReadLockTimeout=null, walPageCompression=DISABLED, walPageCompressionLevel=null, dfltWarmUpCfg=null, encCfg=org.apache.ignite.configuration.EncryptionConfiguration@1929425f, defragmentationThreadPoolSize=4, minWalArchiveSize=-1], snapshotPath=snapshots, snapshotThreadPoolSize=4, activeOnStart=true, activeOnStartPropSetFlag=false, autoActivation=true, autoActivationPropSetFlag=false, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, selectorCnt=4, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0]], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet []], commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=3000, dfltQryTimeout=0, sqlQryHistSize=1000, validationEnabled=false], asyncContinuationExecutor=null]
+[main] INFO org.apache.ignite.internal.IgniteKernal%localhost - IgniteConfiguration [igniteInstanceName=localhost, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, buildIdxPoolSize=1, igniteHome=/tmp/sakai/ignite/eim-alu-69085, igniteWorkDir=/tmp/sakai/ignite/eim-alu-69085/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@180e6ac4, nodeId=5ee699df-a733-4112-ab73-880c20908e4d, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=NOOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@53bf7094, ctxInitLatch=java.util.concurrent.CountDownLatch@26f1249d[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@710b30ef, colSpi=FifoQueueCollisionSpi [parallelJobsNum=8, waitJobsNum=2147483647, runningCnt=0, waitingCnt=0, heldCnt=0], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@60297f36, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@1bf0f6f6, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@56bc3fac, clientMode=false, rebalanceThreadPoolSize=1, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=3, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=READ_COMMITTED, dfltConcurrency=OPTIMISTIC, dfltTxTimeout=30000, txTimeoutOnPartitionMapExchange=0, deadlockTimeout=10000, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=CONTINUOUS, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=20000, sysWorkerBlockedTimeout=20000, clientFailureDetectionTimeout=30000, metricsLogFreq=0, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=8, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysRegionMaxSize=104857600, pageSize=0, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=spring_region, maxSize=104857600, initSize=10485760, swapPath=null, pageEvictionMode=RANDOM_2_LRU, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null], dataRegions=DataRegionConfiguration[] [DataRegionConfiguration [name=hibernate_l2_region, maxSize=1073741824, initSize=314572800, swapPath=null, pageEvictionMode=RANDOM_2_LRU, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=10000, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null]], storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, maxWalArchiveSize=1073741824, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, cdcWalPath=db/wal/cdc, cdcEnabled=false, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@6a078481, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, walForceArchiveTimeout=-1, writeThrottlingEnabled=false, walCompactionEnabled=false, walCompactionLevel=1, checkpointReadLockTimeout=null, walPageCompression=DISABLED, walPageCompressionLevel=null, dfltWarmUpCfg=null, encCfg=org.apache.ignite.configuration.EncryptionConfiguration@1929425f, defragmentationThreadPoolSize=4, minWalArchiveSize=-1], snapshotPath=snapshots, snapshotThreadPoolSize=4, activeOnStart=true, activeOnStartPropSetFlag=false, autoActivation=true, autoActivationPropSetFlag=false, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, selectorCnt=4, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0]], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet []], commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=3000, dfltQryTimeout=0, sqlQryHistSize=1000, validationEnabled=false], asyncContinuationExecutor=null]
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Daemon mode: off
-[19:49:11] OS: Linux 6.2.16-5-pve amd64
+[14:45:15] OS: Linux 6.2.16-5-pve amd64
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - OS: Linux 6.2.16-5-pve amd64
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - OS user: alumno
-[main] INFO org.apache.ignite.internal.IgniteKernal%localhost - PID: 6123
-[19:49:11] VM information: OpenJDK Runtime Environment 1.8.0_402-8u402-ga-2ubuntu1~22.04-b06 Private Build OpenJDK 64-Bit Server VM 25.402-b06
+[main] INFO org.apache.ignite.internal.IgniteKernal%localhost - PID: 198664
+[14:45:15] VM information: OpenJDK Runtime Environment 1.8.0_402-8u402-ga-2ubuntu1~22.04-b06 Private Build OpenJDK 64-Bit Server VM 25.402-b06
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Language runtime: Java Platform API Specification ver. 1.8
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - VM information: OpenJDK Runtime Environment 1.8.0_402-8u402-ga-2ubuntu1~22.04-b06 Private Build OpenJDK 64-Bit Server VM 25.402-b06
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - VM total memory: 27.0GB
@@ -43,19 +43,19 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemRegionInitialSize property to change the setting.
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'hibernate_l2_region' dataRegion: ['default-update-timestamps-region', 'default-query-results-region', 'org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl', 'org.sakaiproject.coursemanagement.impl.CrossListingCmImpl', 'org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl', 'org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl', 'org.sakaiproject.coursemanagement.impl.MeetingCmImpl', 'org.sakaiproject.coursemanagement.impl.MembershipCmImpl', 'org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl', 'org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl', 'org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl', 'org.sakaiproject.lessonbuildertool.SimplePageImpl', 'org.sakaiproject.lessonbuildertool.SimplePageCommentImpl', 'org.sakaiproject.lessonbuildertool.SimplePageGroupImpl', 'org.sakaiproject.lessonbuildertool.SimplePageItemImpl', 'org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl', 'org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl', 'org.sakaiproject.component.common.edu.person.PersonImpl', 'org.sakaiproject.api.common.type.Type', 'org.sakaiproject.component.common.type.TypeImpl', 'org.sakaiproject.taggable.impl.LinkImpl', 'org.sakaiproject.assignment.api.model.Assignment', 'org.sakaiproject.assignment.api.model.Assignment.attachments', 'org.sakaiproject.assignment.api.model.Assignment.properties', 'org.sakaiproject.assignment.api.model.Assignment.groups', 'org.sakaiproject.assignment.api.model.AssignmentSubmission', 'org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters', 'org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments', 'org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments', 'org.sakaiproject.assignment.api.model.AssignmentSubmission.properties', 'org.sakaiproject.chat2.model.ChatChannel', 'org.sakaiproject.chat2.model.ChatMessage', 'org.sakaiproject.content.hbm.Lock', 'org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet', 'org.sakaiproject.content.api.persistence.FileConversionQueueItem', 'org.sakaiproject.rubrics.logic.model.Rubric', 'org.sakaiproject.rubrics.logic.model.Criterion', 'org.sakaiproject.rubrics.logic.model.Rating', 'org.sakaiproject.rubrics.logic.model.Evaluation', 'org.sakaiproject.rubrics.logic.model.ReturnedEvaluation', 'org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation', 'org.sakaiproject.hbm.privacy.PrivacyRecord']]
 [main] WARN org.apache.ignite.internal.IgniteKernal%localhost - Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
-[19:49:11] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[14:45:15] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - 3-rd party licenses can be found at: /tmp/sakai/ignite/eim-alu-69085/libs/licenses
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Local node user attribute [DiscoveryAddressesSize=1]
-[19:49:11] Configured plugins:
+[14:45:15] Configured plugins:
 [main] INFO org.apache.ignite.internal.processors.plugin.IgnitePluginProcessor - Configured plugins:
-[19:49:11]   ^-- None
+[14:45:15]   ^-- None
 [main] INFO org.apache.ignite.internal.processors.plugin.IgnitePluginProcessor -   ^-- None
-[19:49:11] 
+[14:45:15] 
 [main] INFO org.apache.ignite.internal.processors.plugin.IgnitePluginProcessor - 
-[19:49:11] Configured failure handler: [hnd=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet []]]
+[14:45:15] Configured failure handler: [hnd=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet []]]
 [main] INFO org.apache.ignite.internal.processors.failure.FailureProcessor - Configured failure handler: [hnd=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet []]]
 [main] INFO org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi - Successfully bound communication NIO server to TCP port [port=50266, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
-[19:49:12] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[14:45:16] Security status [authentication=off, sandbox=off, tls/ssl=off]
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - Security status [authentication=off, sandbox=off, tls/ssl=off]
 [main] INFO org.apache.ignite.internal.processors.cache.persistence.IgniteCacheDatabaseSharedManager - Configured data regions initialized successfully [total=5]
 [main] WARN org.apache.ignite.internal.processors.query.h2.IgniteH2Indexing - Serialization of Java objects in H2 was enabled.
@@ -66,172 +66,172 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.apache.ignite.internal.processors.cluster.ClusterProcessor - Cluster ID and tag has been read from metastorage: null
 [main] INFO org.apache.ignite.internal.cluster.IgniteClusterImpl - Shutdown policy was updated [oldVal=null, newVal=null]
 [main] INFO org.apache.ignite.internal.processors.query.stat.IgniteStatisticsManagerImpl - Statistics usage state was changed from null to null
-[main] INFO org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi - Successfully bound to TCP port [port=50276, localHost=0.0.0.0/0.0.0.0, locNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50]
-[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.GridClusterStateProcessor - Received activate cluster request with BaselineTopology[id=0] initiator node ID: 28e7689e-25ff-43f2-8409-ab0800b11c50
+[main] INFO org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi - Successfully bound to TCP port [port=50276, localHost=0.0.0.0/0.0.0.0, locNodeId=5ee699df-a733-4112-ab73-880c20908e4d]
+[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.GridClusterStateProcessor - Received activate cluster request with BaselineTopology[id=0] initiator node ID: 5ee699df-a733-4112-ab73-880c20908e4d
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.GridClusterStateProcessor - Started state transition: activate cluster
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.GridClusterStateProcessor - Received state change finish message: ACTIVE
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.GridClusterStateProcessor - Cluster state was changed from ACTIVE to ACTIVE
-[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cache.mvcc.MvccProcessorImpl - Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], nodeId=28e7689e-25ff-43f2-8409-ab0800b11c50, ver=1712598553404, local=true, initialized=false]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cluster.ClusterProcessor - Writing cluster ID and tag to metastorage on ready for write ClusterIdAndTag [id=af24f339-89d4-47b7-9e7b-51023e1de8e0, tag=compassionate_cannon]
+[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cache.mvcc.MvccProcessorImpl - Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], nodeId=5ee699df-a733-4112-ab73-880c20908e4d, ver=1712666717946, local=true, initialized=false]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cluster.ClusterProcessor - Writing cluster ID and tag to metastorage on ready for write ClusterIdAndTag [id=cf8fbbe5-2ff5-4c6e-b9c2-089c19193169, tag=magical_benz]
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.cluster.DistributedBaselineConfiguration - Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'true'
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.cluster.DistributedBaselineConfiguration - Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '0'
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.query.h2.IgniteH2Indexing - SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
 [disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.query.h2.IgniteH2Indexing - SQL parameter 'sql.defaultQueryTimeout' was changed from 'null' to '0'
-[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.ClusterProcessor - compassionate_cannon
+[disco-notifier-worker-#44%localhost%] INFO org.apache.ignite.internal.processors.cluster.ClusterProcessor - magical_benz
 [main] WARN org.apache.ignite.internal.managers.eventstorage.GridEventStorageManager - Added listener for disabled event type: CACHE_OBJECT_REMOVED
 [main] WARN org.apache.ignite.internal.managers.eventstorage.GridEventStorageManager - Added listener for disabled event type: CACHE_OBJECT_EXPIRED
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.exchange.time - Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], crd=true, evt=NODE_JOINED, evtNode=28e7689e-25ff-43f2-8409-ab0800b11c50, customEvt=null, allowMerge=false, exchangeFreeSwitch=false]
-[19:49:13] Data Regions Started: 5
-[19:49:13]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
-[19:49:13]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
-[19:49:13]     ^--   spring_region region [type=default, persistence=false, lazyAlloc=true,
-[19:49:13]       ...  initCfg=10MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
-[19:49:13]     ^--   hibernate_l2_region region [type=user, persistence=false, lazyAlloc=true,
-[19:49:13]       ...  initCfg=300MB, maxCfg=1024MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
-[19:49:13]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
-[19:49:13]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
-[19:49:13]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
-[19:49:13]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.cache.msg - Components activation performed in 31 ms.
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.exchange.time - Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], crd=true, evt=NODE_JOINED, evtNode=5ee699df-a733-4112-ab73-880c20908e4d, customEvt=null, allowMerge=false, exchangeFreeSwitch=false]
+[14:45:18] Data Regions Started: 5
+[14:45:18]     ^--   sysMemPlc region [type=internal, persistence=false, lazyAlloc=false,
+[14:45:18]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[14:45:18]     ^--   spring_region region [type=default, persistence=false, lazyAlloc=true,
+[14:45:18]       ...  initCfg=10MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[14:45:18]     ^--   hibernate_l2_region region [type=user, persistence=false, lazyAlloc=true,
+[14:45:18]       ...  initCfg=300MB, maxCfg=1024MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[14:45:18]     ^--   TxLog region [type=internal, persistence=false, lazyAlloc=false,
+[14:45:18]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=40MB]
+[14:45:18]     ^--   volatileDsMemPlc region [type=user, persistence=false, lazyAlloc=true,
+[14:45:18]       ...  initCfg=40MB, maxCfg=100MB, usedRam=0MB, freeRam=100%, allocRam=0MB]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.cache.msg - Components activation performed in 40 ms.
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.properties]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageItemImpl]
 [sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.properties]
 [sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.MembershipCmImpl]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageItemImpl]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=default-update-timestamps-region]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.chat2.model.ChatMessage]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Rating]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageImpl]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.attachments]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Rubric]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Evaluation]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.hbm.privacy.PrivacyRecord]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.content.api.persistence.FileConversionQueueItem]
-[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageImpl]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.MeetingCmImpl]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=default-query-results-region]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Criterion]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl]
-[sys-#51%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.chat2.model.ChatChannel]
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=default-update-timestamps-region]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.attachments]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl]
-[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl]
-[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.taggable.impl.LinkImpl]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation]
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.MeetingCmImpl]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet]
+[exchange-worker-#49%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.chat2.model.ChatChannel]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.properties]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.groups]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.api.common.type.Type]
-[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.chat2.model.ChatMessage]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.content.hbm.Lock]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Rating]
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=default-query-results-region]
 [sys-#50%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.MeetingCmImpl, id=1861850423, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.component.common.type.TypeImpl, id=-908948276, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageImpl, id=-1433806204, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.chat2.model.ChatMessage, id=-715957082, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.api.common.type.Type, id=-1814277873, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Rating, id=-537599446, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl, id=60333544, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=default-query-results-region, id=1935176796, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageItemImpl, id=-1526188489, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission, id=-532682013, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl, id=1936715263, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl, id=1943691659, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment.groups, id=985610091, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.content.api.persistence.FileConversionQueueItem, id=343413514, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl, id=-1651534343, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments, id=-239128283, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Rubric, id=-519656774, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Criterion, id=347404020, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment, id=330066999, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl, id=815300053, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment.attachments, id=-1401924487, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl, id=661114556, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#55%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.chat2.model.ChatChannel, id=-931931742, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.component.common.edu.person.PersonImpl, id=1772502324, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=default-update-timestamps-region, id=1746645676, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.properties, id=-1879759586, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments, id=-73485472, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl, id=611162971, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.MembershipCmImpl, id=-843124114, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl, id=-1959567035, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl, id=948310522, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl, id=553815099, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#52%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.hbm.privacy.PrivacyRecord, id=-1993669496, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters, id=1265389685, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.content.api.persistence.FileConversionQueueItem]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Criterion]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Rubric]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.rubrics.logic.model.Evaluation]
+[sys-#53%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.taggable.impl.LinkImpl]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.Assignment.groups]
+[sys-#55%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl]
+[sys-#54%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters]
+[sys-#52%localhost%] WARN org.apache.ignite.internal.processors.cache.GridCacheProcessor - Cache write synchronization mode is set to FULL_ASYNC. All single-key 'put' and 'remove' operations will return 'null', all 'putx' and 'removex' operations will return 'true' [cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageItemImpl, id=-1526188489, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.content.api.persistence.FileConversionQueueItem, id=343413514, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.component.common.type.TypeImpl, id=-908948276, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Criterion, id=347404020, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission, id=-532682013, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.hbm.privacy.PrivacyRecord, id=-1993669496, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments, id=-239128283, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment.attachments, id=-1401924487, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet, id=237069099, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Rubric, id=-519656774, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.properties, id=-1879759586, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl, id=-1959567035, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl, id=-1931791588, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl, id=611162971, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#53%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl, id=948310522, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl, id=60333544, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=default-query-results-region, id=1935176796, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Evaluation, id=-273274551, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation, id=-1047023752, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.taggable.impl.LinkImpl, id=469583121, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false]
 [sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.content.hbm.Lock, id=-1699004437, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet, id=237069099, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Evaluation, id=-273274551, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation, id=-1047023752, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl, id=-1931791588, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation, id=-1068236580, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.MembershipCmImpl, id=-843124114, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl, id=661114556, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.Rating, id=-537599446, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments, id=-73485472, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl, id=553815099, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#48%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.api.common.type.Type, id=-1814277873, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment.groups, id=985610091, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=default-update-timestamps-region, id=1746645676, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation, id=-1068236580, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl, id=1943691659, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#51%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl, id=-1651534343, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters, id=1265389685, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
 [sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment.properties, id=1269319498, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.taggable.impl.LinkImpl, id=469583121, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Starting caches on local join performed in 298 ms.
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.MeetingCmImpl, id=1861850423, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimplePageImpl, id=-1433806204, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.component.common.edu.person.PersonImpl, id=1772502324, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#57%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.chat2.model.ChatChannel, id=-931931742, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.assignment.api.model.Assignment, id=330066999, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl, id=815300053, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl, id=1936715263, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[sys-#50%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Started cache [name=org.sakaiproject.chat2.model.ChatMessage, id=-715957082, dataRegionName=hibernate_l2_region, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false, expiryPolicy=[type=javax.cache.expiry.CreatedExpiryPolicy, isEagerTtl=true]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Starting caches on local join performed in 378 ms.
 [exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Skipped waiting for partitions release future (local node is joining) [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
 [exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
 [exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], err=null, rebalanced=true, wasRebalanced=false]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Criterion, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=default-query-results-region, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.attachments, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.MeetingCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.MembershipCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.content.hbm.Lock, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.chat2.model.ChatChannel, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.component.common.edu.person.PersonImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.api.common.type.Type, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.groups, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Rating, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.component.common.type.TypeImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.properties, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.hbm.privacy.PrivacyRecord, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.properties, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.taggable.impl.LinkImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.content.api.persistence.FileConversionQueueItem, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=ignite-sys-cache, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.chat2.model.ChatMessage, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=default-update-timestamps-region, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Rubric, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageItemImpl, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Evaluation, localNodeId=28e7689e-25ff-43f2-8409-ab0800b11c50
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Completed partition exchange [localNode=28e7689e-25ff-43f2-8409-ab0800b11c50, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], evt=NODE_JOINED, evtNode=TcpDiscoveryNode [id=28e7689e-25ff-43f2-8409-ab0800b11c50, consistentId=eim-alu-69085, addrs=ArrayList [0:0:0:0:0:0:0:1%lo, 127.0.0.1, 172.18.69.85], sockAddrs=HashSet [/0:0:0:0:0:0:0:1%lo:50276, /127.0.0.1:50276, eim-alu-69085.lab.unavarra.es/172.18.69.85:50276], discPort=50276, order=1, intOrder=1, lastExchangeTime=1712598553322, loc=true, ver=2.12.0#20220108-sha1:b1289f75, isClient=false], rebalanced=true, done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="Waiting in exchange queue" (225 ms), stage="Exchange parameters initialization" (3 ms), stage="Components activation" (31 ms), stage="Determine exchange type" (358 ms), stage="Preloading notification" (2 ms), stage="After states restored callback" (578 ms), stage="WAL history reservation" (0 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Assign partitions states" (15 ms), stage="Validate partitions states" (5 ms), stage="Apply update counters" (28 ms), stage="Full message preparing" (66 ms), stage="Full message sending" (0 ms), stage="State finish message sending" (0 ms), stage="Exchange done" (30 ms), stage="Total time" (1341 ms)]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="First node affinity initialization (node join) [grp=org.sakaiproject.api.common.type.Type]" (332 ms) (parent=Determine exchange type), stage="First node affinity initialization (node join) [grp=org.sakaiproject.coursemanagement.impl.MeetingCmImpl]" (325 ms) (parent=Determine exchange type), stage="First node affinity initialization (node join) [grp=org.sakaiproject.lessonbuildertool.SimplePageImpl]" (322 ms) (parent=Determine exchange type)]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Criterion, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=default-query-results-region, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.ToolItemRubricAssociation, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.attachments, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.tool.assessment.data.dao.assessment.PublishedAnswer.answerFeedbackSet, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimpleStudentPageImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.MeetingCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.MembershipCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.content.hbm.Lock, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.SectionCategoryCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.chat2.model.ChatChannel, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.AcademicSessionCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.component.common.edu.person.PersonImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.api.common.type.Type, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.groups, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.submitters, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.attachments, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.CrossListingCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.component.common.type.TypeImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Rating, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.Assignment.properties, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.hbm.privacy.PrivacyRecord, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.properties, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.taggable.impl.LinkImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.ReturnedEvaluation, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.ChecklistItemStatusImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.content.api.persistence.FileConversionQueueItem, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=ignite-sys-cache, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.chat2.model.ChatMessage, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.AbstractMembershipContainerCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageGroupImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePagePropertyImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=default-update-timestamps-region, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Rubric, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.coursemanagement.impl.EnrollmentSetCmImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.assignment.api.model.AssignmentSubmission.feedbackAttachments, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.lessonbuildertool.SimplePageItemImpl, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Finish proxy initialization, cacheName=org.sakaiproject.rubrics.logic.model.Evaluation, localNodeId=5ee699df-a733-4112-ab73-880c20908e4d
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Completed partition exchange [localNode=5ee699df-a733-4112-ab73-880c20908e4d, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], evt=NODE_JOINED, evtNode=TcpDiscoveryNode [id=5ee699df-a733-4112-ab73-880c20908e4d, consistentId=eim-alu-69085, addrs=ArrayList [0:0:0:0:0:0:0:1%lo, 127.0.0.1, 172.18.69.85], sockAddrs=HashSet [/0:0:0:0:0:0:0:1%lo:50276, /127.0.0.1:50276, eim-alu-69085.lab.unavarra.es/172.18.69.85:50276], discPort=50276, order=1, intOrder=1, lastExchangeTime=1712666717853, loc=true, ver=2.12.0#20220108-sha1:b1289f75, isClient=false], rebalanced=true, done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="Waiting in exchange queue" (271 ms), stage="Exchange parameters initialization" (5 ms), stage="Components activation" (39 ms), stage="Determine exchange type" (471 ms), stage="Preloading notification" (2 ms), stage="After states restored callback" (685 ms), stage="WAL history reservation" (0 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Assign partitions states" (31 ms), stage="Validate partitions states" (3 ms), stage="Apply update counters" (28 ms), stage="Full message preparing" (112 ms), stage="Full message sending" (1 ms), stage="State finish message sending" (0 ms), stage="Exchange done" (61 ms), stage="Total time" (1709 ms)]
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.distributed.dht.preloader.GridDhtPartitionsExchangeFuture - Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="First node affinity initialization (node join) [grp=default-query-results-region]" (431 ms) (parent=Determine exchange type), stage="Coordinator affinity cache init [grp=org.sakaiproject.lessonbuildertool.SimplePageCommentImpl]" (398 ms) (parent=Determine exchange type), stage="Coordinator affinity cache init [grp=org.sakaiproject.chat2.model.ChatMessage]" (398 ms) (parent=Determine exchange type)]
 [exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.exchange.time - Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], crd=true]
-[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCachePartitionExchangeManager - Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=0], force=false, evt=NODE_JOINED, node=28e7689e-25ff-43f2-8409-ab0800b11c50]
-[19:49:14] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[exchange-worker-#49%localhost%] INFO org.apache.ignite.internal.processors.cache.GridCachePartitionExchangeManager - Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=0], force=false, evt=NODE_JOINED, node=5ee699df-a733-4112-ab73-880c20908e4d]
+[14:45:19] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
-[19:49:14] 
-[19:49:14] Ignite node started OK (id=28e7689e, instance name=localhost)
+[14:45:19] 
+[14:45:19] Ignite node started OK (id=5ee699df, instance name=localhost)
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - 
 
 >>> +-----------------------------------------------------------------------+
@@ -240,17 +240,17 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 >>> OS name: Linux 6.2.16-5-pve amd64
 >>> CPU(s): 4
 >>> Heap: 27.0GB
->>> VM name: 6123@eim-alu-69085
+>>> VM name: 198664@eim-alu-69085
 >>> Ignite instance name: localhost
->>> Local node [ID=28E7689E-25FF-43F2-8409-AB0800B11C50, order=1, clientMode=false]
+>>> Local node [ID=5EE699DF-A733-4112-AB73-880C20908E4D, order=1, clientMode=false]
 >>> Local node addresses: [eim-alu-69085.lab.unavarra.es/0:0:0:0:0:0:0:1%lo, /127.0.0.1, /172.18.69.85]
 >>> Local ports: TCP:10800 TCP:11211 TCP:50266 TCP:50276 
 
-[19:49:14] Topology snapshot [ver=1, locNode=28e7689e, servers=1, clients=0, state=ACTIVE, CPUs=4, offheap=1.1GB, heap=27.0GB]
-[19:49:14]   ^-- Baseline [id=0, size=1, online=1, offline=0]
-[main] INFO org.apache.ignite.internal.managers.discovery.GridDiscoveryManager - Topology snapshot [ver=1, locNode=28e7689e, servers=1, clients=0, state=ACTIVE, CPUs=4, offheap=1.1GB, heap=27.0GB, aliveNodes=[TcpDiscoveryNode [id=28e7689e-25ff-43f2-8409-ab0800b11c50, consistentId=eim-alu-69085, isClient=false, ver=2.12.0#20220108-sha1:b1289f75]]]
+[14:45:19] Topology snapshot [ver=1, locNode=5ee699df, servers=1, clients=0, state=ACTIVE, CPUs=4, offheap=1.1GB, heap=27.0GB]
+[14:45:19]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[main] INFO org.apache.ignite.internal.managers.discovery.GridDiscoveryManager - Topology snapshot [ver=1, locNode=5ee699df, servers=1, clients=0, state=ACTIVE, CPUs=4, offheap=1.1GB, heap=27.0GB, aliveNodes=[TcpDiscoveryNode [id=5ee699df-a733-4112-ab73-880c20908e4d, consistentId=eim-alu-69085, isClient=false, ver=2.12.0#20220108-sha1:b1289f75]]]
 [main] INFO org.apache.ignite.internal.managers.discovery.GridDiscoveryManager -   ^-- Baseline [id=0, size=1, online=1, offline=0]
-[main] INFO org.apache.ignite.internal.util.typedef.G - Node started : [stage="Configure system pool" (33 ms),stage="Start managers" (842 ms),stage="Configure binary metadata" (236 ms),stage="Start processors" (890 ms),stage="Init metastore" (21 ms),stage="Finish recovery" (0 ms),stage="Join topology" (148 ms),stage="Await transition" (42 ms),stage="Await exchange" (1472 ms),stage="Total time" (3684 ms)]
+[main] INFO org.apache.ignite.internal.util.typedef.G - Node started : [stage="Configure system pool" (35 ms),stage="Start managers" (987 ms),stage="Configure binary metadata" (226 ms),stage="Start processors" (1073 ms),stage="Init metastore" (38 ms),stage="Finish recovery" (0 ms),stage="Join topology" (177 ms),stage="Await transition" (89 ms),stage="Await exchange" (1836 ms),stage="Total time" (4461 ms)]
 [main] INFO org.sakaiproject.log.impl.Log4jConfigurationManager - init(): enabled: true
 [main] INFO org.sakaiproject.hikaricp.jdbc.pool.SakaiBasicDataSource - init()
 [main] INFO com.zaxxer.hikari.HikariDataSource - sakai - Starting...
@@ -263,30 +263,31 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.sakaiproject.springframework.orm.hibernate.impl.AdditionalHibernateMappingsImpl - Add annotated class [org.sakaiproject.tasks.api.Task]
 [main] INFO org.sakaiproject.springframework.orm.hibernate.impl.AdditionalHibernateMappingsImpl - Add annotated class [org.sakaiproject.tasks.api.UserTask]
 [main] INFO org.sakaiproject.ignite.IgniteEntityManagerFactoryBean - Ignite instance name [localhost] configured as hibernate cache provider
-19:49:15,569   INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+14:45:20,735   INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
 	name: sakai
 	...]
-19:49:15,676   INFO Version:46 - HHH000412: Hibernate Core {5.3.18.Final}
-19:49:15,679   INFO Environment:198 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.HSQLDialect, hibernate.cache.use_second_level_cache=false, hibernate.connection.url=jdbc:hsqldb:mem:test, hibernate.show_sql=false, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, hibernate.hbm2ddl.auto=create, hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext}
-19:49:16,375   INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
-19:49:16,597   INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-19:49:18,317   INFO access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@102ecb61] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-19:49:18,393   INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+14:45:20,848   INFO Version:46 - HHH000412: Hibernate Core {5.3.18.Final}
+14:45:20,851   INFO Environment:198 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.HSQLDialect, hibernate.cache.use_second_level_cache=false, hibernate.connection.url=jdbc:hsqldb:mem:test, hibernate.show_sql=false, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, hibernate.hbm2ddl.auto=create, hibernate.current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext}
+[jvm-pause-detector-worker] WARN org.apache.ignite.internal.IgniteKernal%localhost - Possible too long JVM pause: 520 milliseconds.
+14:45:21,692   INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+14:45:22,060   INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+14:45:24,691   INFO access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@102ecb61] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+14:45:24,769   INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
 [main] INFO org.sakaiproject.ignite.IgniteEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'sakai'
 [main] INFO org.sakaiproject.db.impl.BasicSqlService - init(): vendor: hsqldb autoDDL: true deadlockRetries: 5
 [main] INFO org.sakaiproject.config.impl.HibernateConfigItemDaoImpl - init: autoDDL sakai_config_item
-19:49:18,792   WARN deprecation:1894 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
-19:49:18,833   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    33634 nanoseconds spent acquiring 1 JDBC connections;
+14:45:25,102   WARN deprecation:1894 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+14:45:25,127   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    39454 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    1313639 nanoseconds spent preparing 1 JDBC statements;
-    180197 nanoseconds spent executing 1 JDBC statements;
+    973933 nanoseconds spent preparing 1 JDBC statements;
+    226376 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    46615 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    50274 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
 [main] INFO org.sakaiproject.memory.impl.SakaiCacheManagerFactoryBean - Initializing EhCache CacheManager
 [main] INFO org.sakaiproject.memory.impl.SakaiCacheManagerFactoryBean - Attempting to load default cluster caching.
@@ -300,7 +301,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.sakaiproject.user.impl.BaseUserDirectoryService - Creating user callCache observer for event based cache expiration (for local caches)
 [main] INFO org.sakaiproject.event.impl.BaseEventTrackingService - org.sakaiproject.event.impl.ClusterEventTracking$$EnhancerBySpringCGLIB$$cd64b8c3@364c93e6.init()
 [main] INFO org.sakaiproject.event.impl.ClusterEventTracking - period: 5, batch: true, checkDb: true
-[main] INFO org.sakaiproject.event.impl.ClusterEventTracking - Server Start: serverId=eim-alu-69085, serverInstance=1712598551081, serverIdInstance=eim-alu-69085-1712598551081, version=unknown/unknown
+[main] INFO org.sakaiproject.event.impl.ClusterEventTracking - Server Start: serverId=eim-alu-69085, serverInstance=1712666715275, serverIdInstance=eim-alu-69085-1712666715275, version=unknown/unknown
 [main] INFO org.sakaiproject.authz.impl.FunctionManagerComponent - init()
 [main] INFO org.sakaiproject.user.impl.PasswordPolicyProviderDefaultImpl - PasswordPolicyProviderDefaultImpl.init(): minEntropy=16, mediumEntropy=32, highEntropy=48, maxSequenceLength=3
 [main] INFO org.sakaiproject.user.impl.BaseUserDirectoryService - init(): PasswordPolicyProvider (org.sakaiproject.user.api.PasswordPolicyProvider): none
@@ -342,7 +343,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.sakaiproject.memory.impl.EhcacheMemoryService - Created ehcache (org.sakaiproject.time.impl.BasicTimeService.userTimezoneCache) using defaults
 [main] INFO org.sakaiproject.time.impl.BasicTimeService - init()
 [main] INFO org.sakaiproject.email.impl.BasicEmailService - init(): smtp: null bounces to: postmaster@localhost maxRecipients: 100 testMode: false  
-[main] INFO org.sakaiproject.email.impl.BaseDigestService - init(): email digests will be checked in 333 seconds and then every 3600 seconds while the server is running
+[main] INFO org.sakaiproject.email.impl.BaseDigestService - init(): email digests will be checked in 307 seconds and then every 3600 seconds while the server is running
 [main] INFO org.sakaiproject.email.impl.DbDigestService - init(): table: SAKAI_DIGEST locks-in-db: false
 [main] INFO org.sakaiproject.memory.impl.EhcacheMemoryService - Created ehcache (org.sakaiproject.event.api.UsageSessionService.recentUserRefresh) using defaults
 [main] INFO org.sakaiproject.event.impl.UsageSessionServiceAdaptor - init()
@@ -373,165 +374,167 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.sakaiproject.user.impl.AuthnCacheWatcher - init()
 [main] INFO org.sakaiproject.memory.impl.EhcacheMemoryService - Created ehcache (org.sakaiproject.event.api.ActivityService.userActivityCache) using defaults
 [main] INFO org.sakaiproject.event.impl.EventQueryServiceImpl - org.sakaiproject.event.impl.EventQueryServiceImpl@386ec37d.init()
-[main] INFO org.sakaiproject.event.impl.BaseLearningResourceStoreService - LRS did not search for existing LearningResourceStoreProviders in the system (ac=org.sakaiproject.util.SakaiApplicationContext@289d1c02, started on Mon Apr 08 19:49:09 CEST 2024, enabled=false)
+[main] INFO org.sakaiproject.event.impl.BaseLearningResourceStoreService - LRS did not search for existing LearningResourceStoreProviders in the system (ac=org.sakaiproject.util.SakaiApplicationContext@289d1c02, started on Tue Apr 09 14:45:13 CEST 2024, enabled=false)
 [main] INFO org.sakaiproject.event.impl.BaseLearningResourceStoreService - LRS INIT: enabled=false
-19:49:21,342   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    67062 nanoseconds spent acquiring 1 JDBC connections;
+[14:45:28] New version is available at ignite.apache.org: 2.16.0
+[ignite-update-notifier-timer] WARN org.apache.ignite.internal.processors.cluster.GridUpdateNotifier - New version is available at ignite.apache.org: 2.16.0
+14:45:28,292   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    88711 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    574929 nanoseconds spent preparing 1 JDBC statements;
-    103655 nanoseconds spent executing 1 JDBC statements;
+    323538 nanoseconds spent preparing 1 JDBC statements;
+    63492 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    24447 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    10263 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,350   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    36136 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,296   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    26552 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    223292 nanoseconds spent preparing 1 JDBC statements;
-    32363 nanoseconds spent executing 1 JDBC statements;
+    142934 nanoseconds spent preparing 1 JDBC statements;
+    25036 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    14131 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    7893 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,358   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    46467 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,302   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    29355 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    335575 nanoseconds spent preparing 1 JDBC statements;
-    39319 nanoseconds spent executing 1 JDBC statements;
+    195884 nanoseconds spent preparing 1 JDBC statements;
+    25196 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    16248 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    11470 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,513   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    43983 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,452   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    39013 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    229258 nanoseconds spent preparing 1 JDBC statements;
-    27130 nanoseconds spent executing 1 JDBC statements;
+    228859 nanoseconds spent preparing 1 JDBC statements;
+    31111 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    15364 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    12949 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,524   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    37923 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,464   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    32452 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    286387 nanoseconds spent preparing 1 JDBC statements;
-    31319 nanoseconds spent executing 1 JDBC statements;
+    223300 nanoseconds spent preparing 1 JDBC statements;
+    28706 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    14152 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    12470 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,833   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    30891 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,674   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    26480 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    214865 nanoseconds spent preparing 1 JDBC statements;
-    19932 nanoseconds spent executing 1 JDBC statements;
+    138688 nanoseconds spent preparing 1 JDBC statements;
+    17213 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    12079 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    7456 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:21,862   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    24207 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,700   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    26759 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    158818 nanoseconds spent preparing 1 JDBC statements;
-    34466 nanoseconds spent executing 1 JDBC statements;
+    281641 nanoseconds spent preparing 1 JDBC statements;
+    22950 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    8542 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    8208 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:22,017   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    24333 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,879   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    65469 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    158375 nanoseconds spent preparing 1 JDBC statements;
-    18450 nanoseconds spent executing 1 JDBC statements;
+    238509 nanoseconds spent preparing 1 JDBC statements;
+    30047 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    9540 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    24995 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:22,043   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    23049 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,907   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    26779 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    141523 nanoseconds spent preparing 1 JDBC statements;
-    27455 nanoseconds spent executing 1 JDBC statements;
+    176494 nanoseconds spent preparing 1 JDBC statements;
+    32285 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    7708 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    7488 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:22,057   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    25899 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,926   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    30341 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    222195 nanoseconds spent preparing 1 JDBC statements;
-    26646 nanoseconds spent executing 1 JDBC statements;
+    155761 nanoseconds spent preparing 1 JDBC statements;
+    22058 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    10757 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    10258 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:22,066   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    28165 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,941   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    30090 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    132610 nanoseconds spent preparing 1 JDBC statements;
-    25567 nanoseconds spent executing 1 JDBC statements;
+    167320 nanoseconds spent preparing 1 JDBC statements;
+    30533 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    7213 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    10853 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-19:49:22,076   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    23413 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,955   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    25561 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    137612 nanoseconds spent preparing 1 JDBC statements;
-    19461 nanoseconds spent executing 1 JDBC statements;
+    199481 nanoseconds spent preparing 1 JDBC statements;
+    18712 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    8238 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    8245 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
 [main] INFO org.sakaiproject.content.impl.test.ContentHostingServiceTest - commited folder:/admin/folder1/
 [main] INFO org.sakaiproject.content.impl.test.ContentHostingServiceTest - commited folder:/admin/沒有已選要刪除的附件/
-19:49:22,090   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
-    417528 nanoseconds spent acquiring 1 JDBC connections;
+14:45:28,973   INFO StatisticalLoggingSessionEventListener:258 - Session Metrics {
+    509435 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    139180 nanoseconds spent preparing 1 JDBC statements;
-    19576 nanoseconds spent executing 1 JDBC statements;
+    191216 nanoseconds spent preparing 1 JDBC statements;
+    19698 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    8827 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+    8601 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
 [main] INFO org.sakaiproject.content.impl.test.ContentHostingServiceTest - saved: /admin/沒有已選要刪除的附件/someFile.txt
 [main] INFO org.sakaiproject.content.impl.test.ContentHostingServiceTest - url is: http://localhost:8080/access/content/admin/%E6%B2%92%E6%9C%89%E5%B7%B2%E9%81%B8%E8%A6%81%E5%88%AA%E9%99%A4%E7%9A%84%E9%99%84%E4%BB%B6/someFile.txt
@@ -616,14 +619,14 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Stopped cache [cacheName=default-query-results-region]
 [main] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Stopped cache [cacheName=default-update-timestamps-region]
 [main] INFO org.apache.ignite.internal.processors.cache.GridCacheProcessor - Stopped cache [cacheName=ignite-sys-cache]
-[19:49:22] Ignite node stopped OK [name=localhost, uptime=00:00:07.702]
+[14:45:29] Ignite node stopped OK [name=localhost, uptime=00:00:09.629]
 [main] INFO org.apache.ignite.internal.IgniteKernal%localhost - 
 
 >>> +----------------------------------------------------------------------------------+
 >>> Ignite ver. 2.12.0#20220108-sha1:b1289f75c7b06127286bde7ce8150e1e7a08b2d2 stopped OK
 >>> +----------------------------------------------------------------------------------+
 >>> Ignite instance name: localhost
->>> Grid uptime: 00:00:07.702
+>>> Grid uptime: 00:00:09.629
 
 
 [main] INFO org.sakaiproject.component.impl.BasicConfigurationService - destroy()

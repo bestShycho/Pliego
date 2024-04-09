@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.sakaiproject.tasks.impl.test.TaskServiceTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.276 s - in org.sakaiproject.tasks.impl.test.TaskServiceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.812 s - in org.sakaiproject.tasks.impl.test.TaskServiceTest

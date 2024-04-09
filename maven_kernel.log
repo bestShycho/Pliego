@@ -1,0 +1,626 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sakai Kernel                                                       [pom]
+[[1;34mINFO[m] Sakai Component Manager                                            [jar]
+[[1;34mINFO[m] Sakai Kernel API                                                   [jar]
+[[1;34mINFO[m] Sakai Kernel Private Package                                       [jar]
+[[1;34mINFO[m] Kernel Common                                                      [jar]
+[[1;34mINFO[m] Sakai Kernel Util                                                  [jar]
+[[1;34mINFO[m] Sakai Kernel Storage Util                                          [jar]
+[[1;34mINFO[m] Sakai Core Kernel Implementation                       [sakai-component]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sakaiproject:kernel[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel 21-SNAPSHOT                                  [1/8][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/./pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/21-SNAPSHOT/kernel-21-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------< [0;36morg.sakaiproject.kernel:sakai-component-manager[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding Sakai Component Manager 21-SNAPSHOT                       [2/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 21 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/java/org/sakaiproject/util/SakaiProperties.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/java/org/sakaiproject/util/SakaiProperties.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/java/org/sakaiproject/component/impl/SpringCompMgr.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/main/java/org/sakaiproject/component/impl/SpringCompMgr.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/test-classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/test/java/org/sakaiproject/util/Compiler.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/src/test/java/org/sakaiproject/util/Compiler.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mComponentsLoaderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.126 s - in org.sakaiproject.util.[1mComponentsLoaderTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 8, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/sakai-component-manager-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/sakai-component-manager-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/sakai-component-manager-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/21-SNAPSHOT/sakai-component-manager-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/21-SNAPSHOT/sakai-component-manager-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/sakai-component-manager-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/21-SNAPSHOT/sakai-component-manager-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.sakaiproject.kernel:sakai-kernel-api[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel API 21-SNAPSHOT                              [3/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 337 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/java/org/sakaiproject/user/api/User.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/java/org/sakaiproject/user/api/User.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/java/org/sakaiproject/db/cover/SqlService.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/main/java/org/sakaiproject/db/cover/SqlService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mRequestFilterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.06 s - in org.sakaiproject.util.[1mRequestFilterTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mToolListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.683 s - in org.sakaiproject.util.[1mToolListenerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mTrustedLoginTokenTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.sakaiproject.util.[1mTrustedLoginTokenTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mServerCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.sakaiproject.util.[1mServerCookieTest[m
+[[1;34mINFO[m] Running org.sakaiproject.exception.[1mPermissionExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.sakaiproject.exception.[1mPermissionExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 20, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/sakai-kernel-api-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/sakai-kernel-api-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/sakai-kernel-api-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/21-SNAPSHOT/sakai-kernel-api-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/21-SNAPSHOT/sakai-kernel-api-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/sakai-kernel-api-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/21-SNAPSHOT/sakai-kernel-api-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.sakaiproject.kernel:sakai-kernel-private[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Private Package 21-SNAPSHOT                  [4/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 15 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/IgniteQueryResultsCache.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/IgniteQueryResultsCache.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/data/SpringCrudRepositoryImpl.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/data/SpringCrudRepositoryImpl.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.hibernate.[1mHibernateCriterionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in org.sakaiproject.hibernate.[1mHibernateCriterionUtilsTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/sakai-kernel-private-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/sakai-kernel-private-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/sakai-kernel-private-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-private/21-SNAPSHOT/sakai-kernel-private-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-private/21-SNAPSHOT/sakai-kernel-private-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-private/target/sakai-kernel-private-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-private/21-SNAPSHOT/sakai-kernel-private-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-private[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36morg.sakaiproject.kernel:sakai-kernel-common[0;1m >-------------[m
+[[1;34mINFO[m] [1mBuilding Kernel Common 21-SNAPSHOT                                 [5/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/main/java
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/main/sql
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/test/java
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/target/sakai-kernel-common-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/target/sakai-kernel-common-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/target/sakai-kernel-common-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-common/21-SNAPSHOT/sakai-kernel-common-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-common/21-SNAPSHOT/sakai-kernel-common-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-common/target/sakai-kernel-common-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-common/21-SNAPSHOT/sakai-kernel-common-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.sakaiproject.kernel:sakai-kernel-util[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Util 21-SNAPSHOT                             [6/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 48 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/java/org/sakaiproject/util/EditorConfiguration.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/java/org/sakaiproject/util/EditorConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/java/org/sakaiproject/util/EnumerationIterator.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/main/java/org/sakaiproject/util/EnumerationIterator.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 12 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/test-classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/test/java/org/sakaiproject/util/UTF8Test.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/src/test/java/org/sakaiproject/util/UTF8Test.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mNumberUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in org.sakaiproject.util.[1mNumberUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mEntityCollectionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.533 s - in org.sakaiproject.util.[1mEntityCollectionsTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mDateFormatterUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.sakaiproject.util.[1mDateFormatterUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mIPAddrUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.sakaiproject.util.[1mIPAddrUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mUTF8Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.sakaiproject.util.[1mUTF8Test[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mWebTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.sakaiproject.util.[1mWebTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mUserSortNameComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s - in org.sakaiproject.util.comparator.[1mUserSortNameComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mAlphaNumericComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.sakaiproject.util.comparator.[1mAlphaNumericComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mGroupTitleComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 s - in org.sakaiproject.util.comparator.[1mGroupTitleComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mMapResourceBundleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.sakaiproject.util.[1mMapResourceBundleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mPasswordCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.sakaiproject.util.[1mPasswordCheckTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mZipContentUtilTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.002 s - in org.sakaiproject.util.[1mZipContentUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 43, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/sakai-kernel-util-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/sakai-kernel-util-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/sakai-kernel-util-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/21-SNAPSHOT/sakai-kernel-util-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/21-SNAPSHOT/sakai-kernel-util-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/sakai-kernel-util-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/21-SNAPSHOT/sakai-kernel-util-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------< [0;36morg.sakaiproject.kernel:sakai-kernel-storage-util[0;1m >----------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Storage Util 21-SNAPSHOT                     [7/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/bundle
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 43 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/BaseDbSingleStorage.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/BaseDbSingleStorage.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/BaseDbSingleStorage.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/BaseDbSingleStorage.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/test/java
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target/sakai-kernel-storage-util-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target/sakai-kernel-storage-util-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target/sakai-kernel-storage-util-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/21-SNAPSHOT/sakai-kernel-storage-util-21-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/21-SNAPSHOT/sakai-kernel-storage-util-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-storage-util/target/sakai-kernel-storage-util-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/21-SNAPSHOT/sakai-kernel-storage-util-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.sakaiproject.kernel:sakai-kernel-impl[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Core Kernel Implementation 21-SNAPSHOT              [8/8][m
+[[1;34mINFO[m] [1m--------------------------[ sakai-component ]---------------------------[m
+Downloading from sakai-maven2-snapshots: https://source.sakaiproject.org/maven2-snapshots/commons-logging/commons-logging/maven-metadata.xml
+Downloading from sakai-maven: https://source.sakaiproject.org/maven2/commons-logging/commons-logging/maven-metadata.xml
+Downloading from gridgain: https://gridgainsystems.com/nexus/content/repositories/external/commons-logging/commons-logging/maven-metadata.xml
+Downloading from central: https://repo1.maven.org/maven2/commons-logging/commons-logging/maven-metadata.xml
+Progress (1): 693 B                   Downloaded from central: https://repo1.maven.org/maven2/commons-logging/commons-logging/maven-metadata.xml (693 B at 1.0 kB/s)
+Downloading from shib-release: https://build.shibboleth.net/nexus/content/groups/public/commons-logging/commons-logging/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/commons-logging/commons-logging/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/commons-logging/commons-logging/maven-metadata.xml
+Progress (1): 427 B                   Downloaded from apache.snapshots: https://repository.apache.org/snapshots/commons-logging/commons-logging/maven-metadata.xml (427 B at 1.1 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/bundle
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 48 resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 210 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/conversion/SAXSerializableResourceAccess.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/conversion/SAXSerializableResourceAccess.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/conversion/SAXSerializableResourceAccess.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/conversion/SAXSerializableResourceAccess.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 7 resources
+[[1;34mINFO[m] Copying 43 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 106 source files to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/test-classes
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/test/java/org/sakaiproject/content/impl/test/MockContentEntity.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/test/java/org/sakaiproject/content/impl/test/MockContentEntity.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/test/java/org/sakaiproject/test/SakaiKernelTestBase.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/src/test/java/org/sakaiproject/test/SakaiKernelTestBase.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M4:test[m [1m(default-test)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.email.impl.test.[1mEmailServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.505 s - in org.sakaiproject.email.impl.test.[1mEmailServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.[1mRoleProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.383 s - in org.sakaiproject.authz.impl.[1mRoleProviderTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.[1mSakaiSecurityTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.169 s - in org.sakaiproject.authz.impl.[1mSakaiSecurityTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.test.[1mDbAuthzTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 s - in org.sakaiproject.authz.impl.test.[1mDbAuthzTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.[1mAdvisorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.943 s - in org.sakaiproject.authz.impl.[1mAdvisorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.[1mDummyUserEncodingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.217 s - in org.sakaiproject.authz.impl.[1mDummyUserEncodingTest[m
+[[1;34mINFO[m] Running org.sakaiproject.authz.impl.[1mRoleSwapMembershipTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.628 s - in org.sakaiproject.authz.impl.[1mRoleSwapMembershipTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mRoleViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.389 s - in org.sakaiproject.content.impl.test.[1mRoleViewTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mContentHostingServiceRecycleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.905 s - in org.sakaiproject.content.impl.test.[1mContentHostingServiceRecycleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mSortTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.006 s - in org.sakaiproject.content.impl.test.[1mSortTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mRoleAccessTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.598 s - in org.sakaiproject.content.impl.test.[1mRoleAccessTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mFileConversionServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.025 s - in org.sakaiproject.content.impl.test.[1mFileConversionServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mContentHostingServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.735 s - in org.sakaiproject.content.impl.test.[1mContentHostingServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.test.[1mVirusScannerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.721 s - in org.sakaiproject.content.impl.test.[1mVirusScannerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.[1mWrappedContentResourceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.057 s - in org.sakaiproject.content.impl.[1mWrappedContentResourceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.[1mBaseContentServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.99 s - in org.sakaiproject.content.impl.[1mBaseContentServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.[1mWrappedInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in org.sakaiproject.content.impl.[1mWrappedInputStreamTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.[1mChainedInputStreamTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 s - in org.sakaiproject.content.impl.[1mChainedInputStreamTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.[1mBaseContentServiceFixTypeAndIdTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m19[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.461 s - in org.sakaiproject.content.impl.[1mBaseContentServiceFixTypeAndIdTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mGMTDateformatterTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.503 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mGMTDateformatterTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mType1BaseContentResourceSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mType1BaseContentResourceSerializerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mType1BaseContentCollectionSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mType1BaseContentCollectionSerializerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mProfileSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.484 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mProfileSerializerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mSaxSerializerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mSaxSerializerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.content.impl.serialize.impl.test.[1mAllTests[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.587 s - in org.sakaiproject.content.impl.serialize.impl.test.[1mAllTests[m
+[[1;34mINFO[m] Running org.sakaiproject.site.impl.test.[1mSiteSearchTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.089 s - in org.sakaiproject.site.impl.test.[1mSiteSearchTest[m
+[[1;34mINFO[m] Running org.sakaiproject.site.impl.test.[1mSiteAliasCleanupNotificationActionIntegrationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.839 s - in org.sakaiproject.site.impl.test.[1mSiteAliasCleanupNotificationActionIntegrationTest[m
+[[1;34mINFO[m] Running org.sakaiproject.site.impl.test.[1mSiteAliasCleanupNotificationActionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.163 s - in org.sakaiproject.site.impl.test.[1mSiteAliasCleanupNotificationActionTest[m
+[[1;34mINFO[m] Running org.sakaiproject.site.impl.test.[1mSiteServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.874 s - in org.sakaiproject.site.impl.test.[1mSiteServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.site.impl.[1mBaseSitePageTitleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.573 s - in org.sakaiproject.site.impl.[1mBaseSitePageTitleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.config.test.[1mStoredConfigServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.868 s - in org.sakaiproject.config.test.[1mStoredConfigServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.impl.[1mResourceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 s - in org.sakaiproject.util.impl.[1mResourceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.impl.[1mLinkMigrationHelperImplTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.071 s - in org.sakaiproject.util.impl.[1mLinkMigrationHelperImplTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.impl.[1mFormattedTextTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m46[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.898 s - in org.sakaiproject.util.impl.[1mFormattedTextTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mStorageUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in org.sakaiproject.util.[1mStorageUtilsTest[m
+[[1;34mINFO[m] Running org.sakaiproject.messagebundle.impl.test.[1mMessageBundleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.159 s - in org.sakaiproject.messagebundle.impl.test.[1mMessageBundleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.messagebundle.impl.test.[1mCachingMessageBundleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.643 s - in org.sakaiproject.messagebundle.impl.test.[1mCachingMessageBundleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.tasks.impl.test.[1mTaskServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.812 s - in org.sakaiproject.tasks.impl.test.[1mTaskServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.conditions.impl.[1mTestConditionService[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s - in org.sakaiproject.conditions.impl.[1mTestConditionService[m
+[[1;34mINFO[m] Running org.sakaiproject.entity.impl.test.[1mEntityManagerComponentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.097 s - in org.sakaiproject.entity.impl.test.[1mEntityManagerComponentTest[m
+[[1;34mINFO[m] Running org.sakaiproject.tool.impl.[1mMySessionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m27[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.416 s - in org.sakaiproject.tool.impl.[1mMySessionTest[m
+[[1;34mINFO[m] Running org.sakaiproject.tool.impl.[1mActiveToolComponentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.533 s - in org.sakaiproject.tool.impl.[1mActiveToolComponentTest[m
+[[1;34mINFO[m] Running org.sakaiproject.tool.impl.[1mSessionComponentRegressionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m29[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.352 s - in org.sakaiproject.tool.impl.[1mSessionComponentRegressionTest[m
+[[1;34mINFO[m] Running org.sakaiproject.component.test.[1mConfigurationLoadingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.621 s - in org.sakaiproject.component.test.[1mConfigurationLoadingTest[m
+[[1;34mINFO[m] Running org.sakaiproject.component.test.[1mDynamicConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.792 s - in org.sakaiproject.component.test.[1mDynamicConfigurationTest[m
+[[1;34mINFO[m] Running org.sakaiproject.component.impl.[1mToolConfigurationServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.455 s - in org.sakaiproject.component.impl.[1mToolConfigurationServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.component.impl.[1mBasicConfigurationServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 s - in org.sakaiproject.component.impl.[1mBasicConfigurationServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.time.impl.test.[1mTimeRangeTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.936 s - in org.sakaiproject.time.impl.test.[1mTimeRangeTest[m
+[[1;34mINFO[m] Running org.sakaiproject.time.impl.test.[1mBaseTimeServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.25 s - in org.sakaiproject.time.impl.test.[1mBaseTimeServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mGetUsersByEidTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.643 s - in org.sakaiproject.user.impl.test.[1mGetUsersByEidTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mAuthenticatedUserProviderTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.849 s - in org.sakaiproject.user.impl.test.[1mAuthenticatedUserProviderTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mContextualDisplayServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.323 s - in org.sakaiproject.user.impl.test.[1mContextualDisplayServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mRequireLocalAccountLegacyAuthenticationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.1 s - in org.sakaiproject.user.impl.test.[1mRequireLocalAccountLegacyAuthenticationTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mAuthenticationCacheTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.31 s - in org.sakaiproject.user.impl.test.[1mAuthenticationCacheTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.test.[1mUserDirectoryServiceGetTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.163 s - in org.sakaiproject.user.impl.test.[1mUserDirectoryServiceGetTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.[1mBasePreferencesServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.315 s - in org.sakaiproject.user.impl.[1mBasePreferencesServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.[1mBaseUserEqualsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.138 s - in org.sakaiproject.user.impl.[1mBaseUserEqualsTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.[1mBaseUserDirectoryServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.575 s - in org.sakaiproject.user.impl.[1mBaseUserDirectoryServiceTest[m
+[[1;34mINFO[m] Running org.sakaiproject.user.impl.[1mPasswordServiceTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.431 s - in org.sakaiproject.user.impl.[1mPasswordServiceTest[m
+[[1;34mINFO[m] Running org.sakai.memory.impl.test.[1mTestCacheInitializer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 s - in org.sakai.memory.impl.test.[1mTestCacheInitializer[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 365, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msakai:1.4.5:component[m [1m(default-component)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Exploding webapp...
+[[1;34mINFO[m] Assembling webapp sakai-kernel-impl in /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT
+[[1;34mINFO[m] Copy webapp webResources to /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT/WEB-INF/lib/sakai-kernel-impl-21-SNAPSHOT.jar
+[[1;34mINFO[m] Generating component /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT.war
+[[1;34mINFO[m] Building war: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.0.0:attach-artifact[m [1m(default)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.0.0-M1:install[m [1m(default-install)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT.war to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/21-SNAPSHOT/sakai-kernel-impl-21-SNAPSHOT.war
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/21-SNAPSHOT/sakai-kernel-impl-21-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/21-SNAPSHOT/sakai-kernel-impl-21-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-impl/target/sakai-kernel-impl-21-SNAPSHOT/WEB-INF/lib/sakai-kernel-impl-21-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/21-SNAPSHOT/sakai-kernel-impl-21-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Sakai Kernel 21-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sakai Kernel ....................................... [1;32mSUCCESS[m [  1.851 s]
+[[1;34mINFO[m] Sakai Component Manager ............................ [1;32mSUCCESS[m [ 11.189 s]
+[[1;34mINFO[m] Sakai Kernel API ................................... [1;32mSUCCESS[m [ 13.059 s]
+[[1;34mINFO[m] Sakai Kernel Private Package ....................... [1;32mSUCCESS[m [  3.612 s]
+[[1;34mINFO[m] Kernel Common ...................................... [1;32mSUCCESS[m [  0.143 s]
+[[1;34mINFO[m] Sakai Kernel Util .................................. [1;32mSUCCESS[m [  6.929 s]
+[[1;34mINFO[m] Sakai Kernel Storage Util .......................... [1;32mSUCCESS[m [  3.019 s]
+[[1;34mINFO[m] Sakai Core Kernel Implementation ................... [1;32mSUCCESS[m [08:45 min]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  09:27 min
+[[1;34mINFO[m] Finished at: 2024-04-09T14:51:18+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

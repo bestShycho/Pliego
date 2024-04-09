@@ -1,17 +1,17 @@
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-4wllihgt-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-zk6hp1ln-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-l791d7x7-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-vb3o8dcp-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-112twxec-pack
-INFO  - ComponentsLoader           - /tmp/components/sakai-kjy6tb8p-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-7c4fcocn-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-8y87k4yv-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
 INFO  - ComponentsLoader           - /tmp/components/sakai-z-pack
 INFO  - ComponentsLoader           - /tmp/components/sakai-b-pack
 INFO  - ComponentsLoader           - /tmp/components/sakai-a-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-k5c3cors-pack
-INFO  - ComponentsLoader           - /tmp/components/sakai-q43da4m6-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-zzg3hz1t-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-c8ikc1hw-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
 INFO  - ComponentsLoader           - /tmp/components/sakai-test-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.081" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.115" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire/surefirebooter4531722752552485779.jar /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire 2024-04-08T19-46-31_980-jvmRun1 surefire7494722843131848335tmp surefire_34799379281209570665tmp"/>
+    <property name="sun.java.command" value="/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire/surefirebooter7294061509568758088.jar /home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire 2024-04-09T14-42-01_962-jvmRun1 surefire5412373336675485374tmp surefire_33283615933571458314tmp"/>
     <property name="surefire.test.class.path" value="/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/test-classes:/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/classes:/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/api/target/sakai-kernel-api-21-SNAPSHOT.jar:/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/component-manager/target/sakai-component-manager-21-SNAPSHOT.jar:/home/alumno/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/alumno/.m2/repository/net/sf/ehcache/ehcache-core/2.6.11/ehcache-core-2.6.11.jar:/home/alumno/.m2/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-aop/5.2.9.RELEASE/spring-aop-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-expression/5.2.9.RELEASE/spring-expression-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-context-support/5.2.9.RELEASE/spring-context-support-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/com/sun/mail/jakarta.mail/1.6.5/jakarta.mail-1.6.5.jar:/home/alumno/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/home/alumno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/alumno/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/alumno/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/alumno/.m2/repository/commons-net/commons-net/3.7.1/commons-net-3.7.1.jar:/home/alumno/.m2/repository/org/mockito/mockito-core/3.4.4/mockito-core-3.4.4.jar:/home/alumno/.m2/repository/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar:/home/alumno/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/alumno/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/alumno/.m2/repository/org/springframework/spring-test/5.2.9.RELEASE/spring-test-5.2.9.RELEASE.jar:/home/alumno/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/alumno/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/home/alumno/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/alumno/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/alumno/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/home/alumno/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/alumno/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/alumno"/>
@@ -33,7 +33,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.awt.headless" value="true"/>
     <property name="lombok.disable" value="true"/>
-    <property name="surefire.real.class.path" value="/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire/surefirebooter4531722752552485779.jar"/>
+    <property name="surefire.real.class.path" value="/home/alumno/Escritorio/Proyecto/sakai-21.x/kernel/kernel-util/target/surefire/surefirebooter7294061509568758088.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sakai.home" value="/tmp/sakai/"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -66,9 +66,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="underscoreCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.069"/>
-  <testcase name="fullnamesWithSpacesCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.003"/>
-  <testcase name="nullSafeCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.005"/>
-  <testcase name="identicalNameCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0"/>
+  <testcase name="underscoreCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.103"/>
+  <testcase name="fullnamesWithSpacesCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.002"/>
+  <testcase name="nullSafeCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.001"/>
+  <testcase name="identicalNameCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.003"/>
   <testcase name="namesWithSpacesCompare" classname="org.sakaiproject.util.comparator.UserSortNameComparatorTest" time="0.001"/>
 </testsuite>
