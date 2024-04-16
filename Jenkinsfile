@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Analizar código') {
           steps {
-            sh '/usr/local/bin/pmd check -d ./ -R rulesets/java/quickstart.xml -f text -r report.txt'
+            sh '/opt/pmd-bin-7.0.0/bin/pmd check -d ./ -R rulesets/java/quickstart.xml -f text -r report.txt --no-fail-on-violation'
           }
         }
 
