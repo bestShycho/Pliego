@@ -11,7 +11,7 @@ pipeline {
 
         stage('Compilar y ejecutar') {
           steps {
-            sh '/etc/maven/ clean compile install -f ./pom.xml -Dmaven.tomcat.home=/opt/tomcat > maven_kernel.log'
+            sh 'mvn clean compile install -f ./pom.xml -Dmaven.tomcat.home=/opt/tomcat > maven_kernel.log'
           }
         }
 
