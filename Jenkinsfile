@@ -3,9 +3,11 @@ pipeline {
   stages {
     stage('Analizar código') {
       steps {
-        sleep(unit: 'MINUTES', time: 1)
-        sh 'echo $PATH'
+        sh '''echo $PATH
+export PATH=$HOME/pmd-bin-7.0.0/bin/:$PATH
+echo $PATH'''
         sh 'pmd check -d ./ -R rulesets/java/quickstart.xml -f text -r report.txt --no-fail-on-violation'
+        sleep(unit: 'MINUTES', time: 1)
       }
     }
 
