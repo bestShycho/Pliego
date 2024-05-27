@@ -1,16 +1,16 @@
-14:42:18,226  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
-14:42:18,230  main  INFO ToolListener:155 - Added localization sakai-tool_fr.propertiesresources for sakai-tool
-14:42:18,231  main  INFO ToolListener:155 - Added localization sakai-tool.propertiesresources for sakai-tool
-14:42:18,275  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
-14:42:18,283  main  INFO ToolListener:122 - overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest6769652939519269193/tools/sakai-tool.xml
-14:42:18,283  main  INFO ToolListener:122 - overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest6769652939519269193/WEB-INF/tools/other-tool.xml
-14:42:18,292  main  WARN ToolListener:134 - No tools found to be registered.
-14:42:18,295  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
-14:42:18,298  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
-14:42:18,298  main  INFO ToolListener:155 - Added localization sakai-tool.propertiesresources for sakai-tool
-14:42:18,299  main  INFO ToolListener:155 - Added localization sakai-tool_fr.propertiesresources for sakai-tool
-14:42:18,301  main  WARN ToolListener:134 - No tools found to be registered.
-14:42:18,304  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/another-tool.xml
-14:42:18,305  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
-14:42:18,306  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
-14:42:18,309  main  INFO ToolListener:124 - registering tools from resource: /custom/sakai-tool.xml
+13:13:59,759  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+13:13:59,762  main  INFO ToolListener:155 - Added localization sakai-tool_fr.propertiesresources for sakai-tool
+13:13:59,762  main  INFO ToolListener:155 - Added localization sakai-tool.propertiesresources for sakai-tool
+13:13:59,792  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+13:13:59,797  main  INFO ToolListener:122 - overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest1810861258353444632/tools/sakai-tool.xml
+13:13:59,797  main  INFO ToolListener:122 - overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest1810861258353444632/WEB-INF/tools/other-tool.xml
+13:13:59,801  main  WARN ToolListener:134 - No tools found to be registered.
+13:13:59,803  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
+13:13:59,805  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
+13:13:59,806  main  INFO ToolListener:155 - Added localization sakai-tool.propertiesresources for sakai-tool
+13:13:59,806  main  INFO ToolListener:155 - Added localization sakai-tool_fr.propertiesresources for sakai-tool
+13:13:59,809  main  WARN ToolListener:134 - No tools found to be registered.
+13:13:59,811  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/another-tool.xml
+13:13:59,811  main  INFO ToolListener:124 - registering tools from resource: /tools/sakai-tool.xml
+13:13:59,812  main  INFO ToolListener:124 - registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+13:13:59,814  main  INFO ToolListener:124 - registering tools from resource: /custom/sakai-tool.xml

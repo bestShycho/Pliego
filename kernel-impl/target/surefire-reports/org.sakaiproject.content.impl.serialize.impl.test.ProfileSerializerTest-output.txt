@@ -3,11 +3,11 @@ SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-si
 SLF4J: Found binding in [jar:file:/home/alumno/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
-[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 142ms 
-[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 8 us/entity 
-[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 42992192 bytes overhead 
-[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 2687 bytes/entity overhead 
+[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 121ms 
+[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 7 us/entity 
+[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 42991672 bytes overhead 
+[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Write 16000 Entities took 2686 bytes/entity overhead 
 [main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Read 16000 Entities took 128ms 
 [main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Read 16000 Entities took 8 us/entity 
-[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Read 16000 Entities took 42991728 bytes overhead 
+[main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Read 16000 Entities took 42991648 bytes overhead 
 [main] INFO org.sakaiproject.content.impl.serialize.impl.test.ProfileSerializerTest - Read 16000 Entities took 2686 bytes/entity overhead 

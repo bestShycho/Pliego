@@ -1,1 +1,1 @@
-14:42:18,357  main  INFO TrustedLoginTokenTest:57 - Per call 0.032 ms
+13:13:59,845  main  INFO TrustedLoginTokenTest:57 - Per call 0.016 ms

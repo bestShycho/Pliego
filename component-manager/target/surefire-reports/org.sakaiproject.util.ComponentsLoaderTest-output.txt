@@ -1,17 +1,17 @@
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-zk6hp1ln-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-x7s2fpkb-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-vb3o8dcp-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-w1j10sbs-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-7c4fcocn-pack
-INFO  - ComponentsLoader           - /tmp/components/sakai-8y87k4yv-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-1c78lffz-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-es0epgg5-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
 INFO  - ComponentsLoader           - /tmp/components/sakai-z-pack
 INFO  - ComponentsLoader           - /tmp/components/sakai-b-pack
 INFO  - ComponentsLoader           - /tmp/components/sakai-a-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
-INFO  - ComponentsLoader           - /tmp/components/sakai-zzg3hz1t-pack
-INFO  - ComponentsLoader           - /tmp/components/sakai-c8ikc1hw-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-9y3tbl8f-pack
+INFO  - ComponentsLoader           - /tmp/components/sakai-m4slv49u-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
 INFO  - ComponentsLoader           - /tmp/components/sakai-test-pack
 INFO  - ComponentsLoader           - load: loading components from: /tmp/components
